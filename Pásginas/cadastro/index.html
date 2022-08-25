@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="Logotipo Maquiadora.png" type="image/x-icon" />
+    <title>R8 perfumaria</title>
+    
+    <link rel="stylesheet" href="Cadastro.css">
+</head>
+
+ <body> 
+    <div class="wrapper">
+        <form action="" id="formulario" method="POST">
+    <main>
+        <h1>Cadastro</h1>
+    
+    <form method="get" action="" enctype="multipart/form-data" class="formulario">
+        <div class="input-group">
+            <label for="nome-completo">Nome <span class="obrigatorio"></span></label><br>
+            <input type="text" name="nome" autofocus required placeholder="Nome" id="nome-completo" value="" />
+        </div>
+        <div class="input-group">
+            <label for="email">E-mail <span class="obrigatorio"></span></label><br>
+            <input type="email" name="email" placeholder="E-mail" id="email" value="" />
+        </div>
+        <div class="input-group">
+            <label for="senha">Senha</label><br>
+            <input type="password" name="senha" id="senha" placeholder="Senha" value="" />
+        </div>
+        <div class="input-group">
+            <label>CEP</label><br>
+            <input type="text" id="cep" placeholder="Insira seu CEP" />
+        </div>
+        <div class="text-center" style="margin-left: 20px;">
+            <label class="trem">Gênero</label><br>
+            <input type="radio" name="sexo" id="masculino" value="masculino" checked="" /> <label for="masculino">Masculino</label>
+            <input type="radio" name="sexo" id="feminino" value="feminino" checked=""/> <label for="feminino">Feminino</label>
+            <input type="radio" name="sexo" id="outros" value="outros" checked=""/> <label for="outros">Outros</label>
+        </div>
+        <div class="input-group">
+            <label for="termos">Você concorda com a <a  href="politica.html">Política de Privacidade</a> </label>
+            <input type="checkbox" name="termos" required id="termos" value="1">
+            
+        </div>
+        <div class="text-center2" style="margin-left: 20px;">
+            <button onclick="perfume()"><a href="../HomePage.html">Cadastrar-se</a></button>
+            <a  href="login-conta.html">Já tem uma conta?</a>
+        </div>
+    </main>
+    
+        <script src="login-conta.html"></script>
+        
+    </form>
+    </div>
+    </div>
+
+</body>
+
+</html>
